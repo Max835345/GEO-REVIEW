@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.comments {
+    width: 353px;
+    height: 351.18px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    display: none;
+    position: absolute;
+}
+
+.cross {
+    float: right;
+}
+
+.glav {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-top: 13px;
+}
+
+.comments_area {
+    padding: 17px;
+    padding-bottom: 19px;
+}
+
+.text {
+    padding: 11px;
+    padding-right: 118px;
+    margin-bottom: 10px;
+}
+
+#tex {
+    border: 1px solid #CFCFCF;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.form__input {
+    padding: 11px;
+    padding-right: 132px;
+    height: 75px;
+    margin-bottom: 24px;
+}
+
+.comments_link {
+    background-color: #FF8663;
+    border-radius: 4px;
+    padding: 13px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFF;
+}
+
+.comments_link:hover {
+    background-color: #e27556;
+}
+
+.form__input--textarea{
+    resize: none;
+}

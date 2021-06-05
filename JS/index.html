@@ -1,0 +1,48 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEO-REVIEW</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/map.jpg" />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=9ce112ee-4530-42ba-92e5-3b656d23567b&lang=ru_RU" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="cont">
+            <section class="sec map_section">
+                <div id="map"></div>
+            </section>
+        </div>
+        <div class="comments" id="modal">
+            <div class="modal__reviews">
+                <ul class="reviewe-list">
+                    <li class="review__item"></li>
+                </ul>
+            </div>
+            <div class="modal__body"></div>
+            <div class="comments_area">
+                <a href="/" class="img_link">
+                    <img src="assets/img/Vector.png" alt="cross" class="cross" />
+                </a>
+                <h1 class="glav">Отзыв:</h1>
+                <form id="modal__form">
+                    <input type="text" placeholder="Укажите ваше имя" class="text" id="name" />
+                    <input type="text" placeholder="Укажите место" class="text" id="comment" />
+                    <textarea class="form__input form__input--textarea" placeholder="Оставить отзыв" id="review">
+                        
+                    </textarea>
+                    <button class="comments_link" type="submit">Добавить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="assets/js/app.js"></script>
+
+</html>
